@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Task Planner</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Daily Task Planner</h1>
+    <div id="task-form">
+        <input type="text" id="task-title" placeholder="Task Title" />
+        <textarea id="task-desc" placeholder="Task Description"></textarea>
+        <input type="text" id="task-author" placeholder="Assigned To" />
+        <input type="datetime-local" id="task-datetime" />
+        <button id="add-task">Add Task</button>
+    </div>
+    <h2>All Tasks</h2>
+    <div id="tasks-container"></div>
+    <script src="script.js"></script>
+</body>
+</html>
